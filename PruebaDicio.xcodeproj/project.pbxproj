@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		754F2ADC29B8289800AB1313 /* SearchUsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F2ADB29B8289800AB1313 /* SearchUsersViewModel.swift */; };
+		754F2ADF29B828F300AB1313 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F2ADE29B828F300AB1313 /* APIManager.swift */; };
+		754F2AE129B82DFD00AB1313 /* UsersSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F2AE029B82DFD00AB1313 /* UsersSearch.swift */; };
+		754F2AE329B8308C00AB1313 /* UserItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F2AE229B8308C00AB1313 /* UserItemCellViewModel.swift */; };
+		754F2AE929B8361D00AB1313 /* UserItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F2AE829B8361D00AB1313 /* UserItemViewCell.swift */; };
+		75A1CD5129B9107F00EB5D4D /* RegisterUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A1CD5029B9107F00EB5D4D /* RegisterUserController.swift */; };
+		75A1CD5429B9118B00EB5D4D /* RegisterUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A1CD5329B9118B00EB5D4D /* RegisterUserViewModel.swift */; };
+		75A1CD5729B9847C00EB5D4D /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A1CD5629B9847C00EB5D4D /* Extension+UIImage.swift */; };
+		75A1CD5C29B9864800EB5D4D /* UpdateUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A1CD5B29B9864800EB5D4D /* UpdateUserController.swift */; };
+		75A1CD5F29B987FB00EB5D4D /* UpdateUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A1CD5E29B987FB00EB5D4D /* UpdateUserViewModel.swift */; };
+		75A1CD6129B9916D00EB5D4D /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A1CD6029B9916D00EB5D4D /* Extension+String.swift */; };
+		75A1CD6329B9920000EB5D4D /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A1CD6229B9920000EB5D4D /* Extension+ViewController.swift */; };
 		75A2474929B817D900EFBD63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2474829B817D900EFBD63 /* AppDelegate.swift */; };
 		75A2474B29B817D900EFBD63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2474A29B817D900EFBD63 /* SceneDelegate.swift */; };
-		75A2474D29B817D900EFBD63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2474C29B817D900EFBD63 /* ViewController.swift */; };
+		75A2474D29B817D900EFBD63 /* SearchUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2474C29B817D900EFBD63 /* SearchUsersViewController.swift */; };
 		75A2475029B817D900EFBD63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A2474E29B817D900EFBD63 /* Main.storyboard */; };
 		75A2475229B817DA00EFBD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A2475129B817DA00EFBD63 /* Assets.xcassets */; };
 		75A2475529B817DA00EFBD63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A2475329B817DA00EFBD63 /* LaunchScreen.storyboard */; };
@@ -36,10 +48,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		754F2ADB29B8289800AB1313 /* SearchUsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUsersViewModel.swift; sourceTree = "<group>"; };
+		754F2ADE29B828F300AB1313 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		754F2AE029B82DFD00AB1313 /* UsersSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersSearch.swift; sourceTree = "<group>"; };
+		754F2AE229B8308C00AB1313 /* UserItemCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemCellViewModel.swift; sourceTree = "<group>"; };
+		754F2AE829B8361D00AB1313 /* UserItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemViewCell.swift; sourceTree = "<group>"; };
+		75A1CD5029B9107F00EB5D4D /* RegisterUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserController.swift; sourceTree = "<group>"; };
+		75A1CD5329B9118B00EB5D4D /* RegisterUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewModel.swift; sourceTree = "<group>"; };
+		75A1CD5629B9847C00EB5D4D /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		75A1CD5B29B9864800EB5D4D /* UpdateUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserController.swift; sourceTree = "<group>"; };
+		75A1CD5E29B987FB00EB5D4D /* UpdateUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserViewModel.swift; sourceTree = "<group>"; };
+		75A1CD6029B9916D00EB5D4D /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		75A1CD6229B9920000EB5D4D /* Extension+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
 		75A2474529B817D900EFBD63 /* PruebaDicio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaDicio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A2474829B817D900EFBD63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75A2474A29B817D900EFBD63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75A2474C29B817D900EFBD63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75A2474C29B817D900EFBD63 /* SearchUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUsersViewController.swift; sourceTree = "<group>"; };
 		75A2474F29B817D900EFBD63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75A2475129B817DA00EFBD63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75A2475429B817DA00EFBD63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +100,152 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		754F2AD629B8272300AB1313 /* ScreensModules */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD5829B9852F00EB5D4D /* UpdateUser */,
+				75A1CD4D29B9102D00EB5D4D /* RegisterUser */,
+				754F2AD729B827EC00AB1313 /* SearchUsers */,
+			);
+			path = ScreensModules;
+			sourceTree = "<group>";
+		};
+		754F2AD729B827EC00AB1313 /* SearchUsers */ = {
+			isa = PBXGroup;
+			children = (
+				754F2ADA29B8285D00AB1313 /* Models */,
+				754F2AD929B8284F00AB1313 /* View */,
+				754F2AD829B8284000AB1313 /* ViewModel */,
+			);
+			path = SearchUsers;
+			sourceTree = "<group>";
+		};
+		754F2AD829B8284000AB1313 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				754F2ADB29B8289800AB1313 /* SearchUsersViewModel.swift */,
+				754F2AE229B8308C00AB1313 /* UserItemCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		754F2AD929B8284F00AB1313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				754F2AE529B8346400AB1313 /* Cells */,
+				754F2AE429B8345900AB1313 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		754F2ADA29B8285D00AB1313 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				754F2AE029B82DFD00AB1313 /* UsersSearch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		754F2ADD29B828CD00AB1313 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				754F2ADE29B828F300AB1313 /* APIManager.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		754F2AE429B8345900AB1313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75A2474C29B817D900EFBD63 /* SearchUsersViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		754F2AE529B8346400AB1313 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				754F2AE829B8361D00AB1313 /* UserItemViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		75A1CD4D29B9102D00EB5D4D /* RegisterUser */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD5229B9116C00EB5D4D /* ViewModel */,
+				75A1CD4E29B9105300EB5D4D /* View */,
+			);
+			path = RegisterUser;
+			sourceTree = "<group>";
+		};
+		75A1CD4E29B9105300EB5D4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD4F29B9106800EB5D4D /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75A1CD4F29B9106800EB5D4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD5029B9107F00EB5D4D /* RegisterUserController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75A1CD5229B9116C00EB5D4D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD5329B9118B00EB5D4D /* RegisterUserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		75A1CD5529B9846800EB5D4D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD5629B9847C00EB5D4D /* Extension+UIImage.swift */,
+				75A1CD6029B9916D00EB5D4D /* Extension+String.swift */,
+				75A1CD6229B9920000EB5D4D /* Extension+ViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		75A1CD5829B9852F00EB5D4D /* UpdateUser */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD5D29B987EA00EB5D4D /* ViewModel */,
+				75A1CD5929B9862100EB5D4D /* View */,
+			);
+			path = UpdateUser;
+			sourceTree = "<group>";
+		};
+		75A1CD5929B9862100EB5D4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD5A29B9862700EB5D4D /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75A1CD5A29B9862700EB5D4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD5B29B9864800EB5D4D /* UpdateUserController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75A1CD5D29B987EA00EB5D4D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				75A1CD5E29B987FB00EB5D4D /* UpdateUserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		75A2473C29B817D900EFBD63 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +269,11 @@
 		75A2474729B817D900EFBD63 /* PruebaDicio */ = {
 			isa = PBXGroup;
 			children = (
+				75A1CD5529B9846800EB5D4D /* Extension */,
+				754F2ADD29B828CD00AB1313 /* ApiClient */,
+				754F2AD629B8272300AB1313 /* ScreensModules */,
 				75A2474829B817D900EFBD63 /* AppDelegate.swift */,
 				75A2474A29B817D900EFBD63 /* SceneDelegate.swift */,
-				75A2474C29B817D900EFBD63 /* ViewController.swift */,
 				75A2474E29B817D900EFBD63 /* Main.storyboard */,
 				75A2475129B817DA00EFBD63 /* Assets.xcassets */,
 				75A2475329B817DA00EFBD63 /* LaunchScreen.storyboard */,
@@ -258,9 +430,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A2474D29B817D900EFBD63 /* ViewController.swift in Sources */,
+				75A1CD5429B9118B00EB5D4D /* RegisterUserViewModel.swift in Sources */,
+				75A1CD5729B9847C00EB5D4D /* Extension+UIImage.swift in Sources */,
+				75A1CD5129B9107F00EB5D4D /* RegisterUserController.swift in Sources */,
+				754F2AE129B82DFD00AB1313 /* UsersSearch.swift in Sources */,
+				75A2474D29B817D900EFBD63 /* SearchUsersViewController.swift in Sources */,
+				754F2AE929B8361D00AB1313 /* UserItemViewCell.swift in Sources */,
+				75A1CD5F29B987FB00EB5D4D /* UpdateUserViewModel.swift in Sources */,
+				75A1CD6329B9920000EB5D4D /* Extension+ViewController.swift in Sources */,
+				754F2ADC29B8289800AB1313 /* SearchUsersViewModel.swift in Sources */,
+				75A1CD6129B9916D00EB5D4D /* Extension+String.swift in Sources */,
+				754F2ADF29B828F300AB1313 /* APIManager.swift in Sources */,
 				75A2474929B817D900EFBD63 /* AppDelegate.swift in Sources */,
+				754F2AE329B8308C00AB1313 /* UserItemCellViewModel.swift in Sources */,
 				75A2474B29B817D900EFBD63 /* SceneDelegate.swift in Sources */,
+				75A1CD5C29B9864800EB5D4D /* UpdateUserController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +627,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,8 +654,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
